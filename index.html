@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UptoSkills - Internships</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="contact-bar">
+            <div class="container">
+                <div class="contact-info">
+                    <span>Palam, New Delhi, Delhi 110077</span>
+                    <span>info@uptoskills.com</span>
+                    <span>+91-9319772294</span>
+                </div>
+                <div class="social-links">
+                    <a href="#" class="social-link">Twitter</a>
+                    <a href="#" class="social-link">LinkedIn</a>
+                    <a href="#" class="social-link">Instagram</a>
+                </div>
+            </div>
+        </div>
+        <nav class="nav-bar">
+            <div class="container">
+                <img src="images/logo.png" alt="UptoSkills Logo" class="logo">
+                <div class="nav-links">
+                    <a href="#" class="nav-link active">Internship</a>
+                    <a href="#" class="nav-link">Jobs</a>
+                    <a href="#" class="nav-link">Learn & Earn</a>
+                    <a href="#" class="nav-link">Discover +</a>
+                </div>
+                <div class="auth-buttons">
+                    <button class="btn employer-login">Employer Login</button>
+                    <button class="btn candidate-login">Candidate Login</button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1>Find Your Dream Internship</h1>
+                    <p>Kickstart your career with hands-on experience through our internship programs</p>
+                    <div class="search-box">
+                        <input type="text" placeholder="Search internships by skills, company, or role">
+                        <button class="btn search-btn">Search</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="internships">
+            <div class="container">
+                <div class="filters">
+                    <select class="filter-select">
+                        <option>All Categories</option>
+                        <option>Web Development</option>
+                        <option>Digital Marketing</option>
+                        <option>UI/UX Design</option>
+                    </select>
+                    <select class="filter-select">
+                        <option>Duration</option>
+                        <option>1-3 months</option>
+                        <option>3-6 months</option>
+                        <option>6+ months</option>
+                    </select>
+                    <select class="filter-select">
+                        <option>Stipend</option>
+                        <option>5000-10000</option>
+                        <option>10000-20000</option>
+                        <option>20000+</option>
+                    </select>
+                </div>
+
+                <div class="internship-grid">
+                    <!-- Internship Cards -->
+                    <div class="internship-card">
+                        <div class="card-header">
+                            <img src="images/web-dev.jpg" alt="Web Development">
+                            <span class="category">Web Development</span>
+                        </div>
+                        <div class="card-body">
+                            <h3>Frontend Development Intern</h3>
+                            <p>Work on real projects using React, Vue.js, and modern web technologies</p>
+                            <div class="card-details">
+                                <span><i class="icon-duration"></i>3 months</span>
+                                <span><i class="icon-stipend"></i>₹15,000/month</span>
+                                <span><i class="icon-location"></i>Remote</span>
+                            </div>
+                        </div>
+                        <div class="card-footer">
+                            <button class="btn apply-btn">Apply Now</button>
+                        </div>
+                    </div>
+                    <!-- More cards... -->
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div class="container">
+        <div class="warning-banner">
+            If anyone asks you to pay any kind of fee for this internship, inform us immediately. Don't pay anything to anyone. UptoSkills doesn't charge any fee for this internship.
+        </div>
+
+        <div class="content">
+            <div class="join-text">JOIN US</div>
+            <h1>Intern with UptoSkills</h1>
+            
+            <p class="description">
+                UptoSkills makes it possible for you to achieve your fullest potential. We nurture our talent and equip them to contribute to the creation of a better future. With exciting opportunities across a breadth of domains and industries, we encourage you to take the initial steps toward a fulfilling career with us.
+            </p>
+
+            <form class="internship-form">
+                <div class="form-grid">
+                    <input type="text" placeholder="Name *" required>
+                    <input type="email" placeholder="Email ID" required>
+                    
+                    <select required>
+                        <option value="" disabled selected>Select Internship Type</option>
+                        <option value="web">Web Development</option>
+                        <option value="mobile">Mobile Development</option>
+                        <option value="design">UI/UX Design</option>
+                    </select>
+                    
+                    <input type="tel" placeholder="Mobile Number *" required>
+                    
+                    <select required>
+                        <option value="" disabled selected>Select Duration</option>
+                        <option value="1">1 Month</option>
+                        <option value="2">2 Months</option>
+                        <option value="3">3 Months</option>
+                    </select>
+                    
+                    <select required>
+                        <option value="" disabled selected>Select Qualification</option>
+                        <option value="graduate">Graduate</option>
+                        <option value="undergraduate">Undergraduate</option>
+                        <option value="postgraduate">Postgraduate</option>
+                    </select>
+                    
+                    <input type="text" placeholder="Branch *" required>
+                    <input type="text" placeholder="Experience If Any">
+                    
+                    <input type="text" placeholder="College/University *" required>
+                    <input type="text" placeholder="Select Location" required>
+                    
+                    <input type="text" placeholder="City *" required>
+                </div>
+            </form>
+        </div>
+    </div>
+    <button type="submit" class="submit-button">Submit Application</button>
+    
+    <div class="chat-widget">
+        <div class="chat-text">Quick Question?</div>
+        <div class="chat-subtext">We are here!</div>
+    </div>
+</body>
+</html>
